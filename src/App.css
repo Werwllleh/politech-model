@@ -1,3 +1,18 @@
 .App {
   height: 100vh;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,120,157,1) 0%, rgba(0,154,255,1) 30%, rgba(0,154,255,1) 70%, rgba(120,120,157,1) 100%);
+}
+
+canvas {
+  height: 100vh !important;
+}
+
+.main_dots {
+  margin: 0;
+}
+
+.main_dots li button{
+  width: 20px !important;
+  height: 20px !important;
 }
